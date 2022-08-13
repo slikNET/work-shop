@@ -3,7 +3,7 @@ WORKDIR /users-api
 COPY . /users-api
 
 RUN npm install --loglevel=warn
-RUN npm run lint
+#RUN npm run lint
 
 #ENV NODE_ENV production
 
